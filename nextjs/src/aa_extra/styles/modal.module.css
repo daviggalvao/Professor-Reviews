@@ -1,0 +1,153 @@
+.caixam {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 500px;
+  width: 900px;
+  gap: 0.5rem;
+  background-color: #001830;
+  padding: 1rem 2rem;
+  border-radius: 20px;
+  margin-inline: 1rem;
+  position: relative;
+  margin: auto;
+}
+
+.caixamn {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 390px;
+  width: 800px;
+  background-color: #27bd80;
+  padding: 1rem 2rem;
+  border-radius: 20px;
+  margin-inline: 1rem;
+  position: relative;
+  margin: auto;
+}
+
+.space {
+  display: flex;
+  flex-direction: row;
+}
+
+.spacei {
+  margin-left: 14rem;
+}
+
+.spacei1 {
+  margin-left: 20rem;
+}
+
+.coment {
+  background-color: #27bd80;
+  border: none;
+  padding: 12px;
+}
+
+.reta {
+  height: 2px;
+  width: 800px;
+  background-color: #001830;
+}
+
+.hide {
+  display: hidden;
+}
+
+.d {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.modal {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 100vw;
+  height: 100vw;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  overflow: scroll;
+}
+
+.close {
+  color: #aaa;
+  justify-content: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.buttonm {
+  width: 400px;
+  height: 40px;
+  background-color: #ffffff;
+  color: #282828;
+  padding: 23px;
+  border-radius: 20px;
+  margin-bottom: 1rem;
+  text-align: center;
+  position: relative;
+}
+
+.buttonc {
+  width: 150px;
+  height: 60px;
+  background-color: #27bd80;
+  color: #ffffff;
+  padding: 1rem 2rem;
+  border-radius: 20px;
+  margin-inline: 1rem;
+  position: relative;
+}
+
+.fp {
+  height: fit-content;
+  width: fit-content;
+  margin-top: 0.5rem;
+  border-radius: 50%;
+}
+
+.mid {
+  width: 500px;
+  height: 690px;
+  flex: 0.5;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  margin: auto;
+  background-color: #001830;
+}
+
+.m {
+  --tw-bg-opacity: 1;
+  background-color: rgb(220 252 231 / var(--tw-bg-opacity, 1));
+  height: 100vw;
+  width: 100vw;
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 10px;
+  width: 780px;
+  color: #282828;
+  background-color: #ffffff;
+  padding: 15px;
+  margin-bottom: 1rem;
+  border-radius: 20px;
+  text-align: center;
+  position: relative;
+}
