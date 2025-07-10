@@ -1,9 +1,9 @@
 # Professor Reviews
 
-> Plataforma onde estudantes podem avaliar e comentar sobre seus professores, auxiliando outros a tomarem decisões informadas sobre sua jornada acadêmica. Este projeto visa fomentar a transparência e fornecer um feedback valioso tanto para alunos quanto para o corpo docente.
+> A platform where students can rate and review their professors, helping others make informed decisions about their academic journey. This project aims to foster transparency and provide valuable feedback for both students and faculty.
 
 <p align="center">
-  <a href="#-tecnologias-utilizadas">
+  <a href="#-technologies-used">
     <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js">
     <img src="https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white" alt="NestJS">
     <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript">
@@ -14,90 +14,90 @@
 
 ---
 
-## 🎯 Objetivos do Projeto
+## 🎯 Project Goals
 
-- **Plataforma de Avaliação:** Criar um espaço para que estudantes avaliem e publiquem resenhas sobre seus professores.
-- **Transparência Acadêmica:** Fomentar a transparência e ajudar alunos a escolherem suas disciplinas e turmas de forma mais estratégica.
-- **Feedback Construtivo:** Fornecer um canal de feedback valioso que possa ser utilizado por estudantes e pela instituição de ensino.
-- **Desenvolvimento Full-Stack:** Aplicar conceitos de desenvolvimento de software na construção de uma aplicação completa com frontend (Next.js) e backend (NestJS).
-
----
-
-## 🏗️ Estrutura do Projeto
-
-O projeto é uma aplicação full-stack dividida em duas partes principais, que devem ser executadas de forma independente:
-
-- **`frontend/`**: Contém a aplicação Next.js responsável pela interface do usuário (UI) e pela experiência de navegação.
-- **`backend/`**: Contém a API RESTful desenvolvida com NestJS, que gerencia toda a lógica de negócios, interações com o banco de dados e autenticação.
+- **Review Platform:** Create a space for students to rate and publish reviews about their professors.
+- **Academic Transparency:** Foster transparency and help students choose their courses and classes more strategically.
+- **Constructive Feedback:** Provide a valuable feedback channel that can be used by students and the educational institution.
+- **Full-Stack Development:** Apply software development concepts to build a complete application with a Next.js frontend and a NestJS backend.
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## 🏗️ Project Structure
 
-| Tecnologia | Propósito |
+The project is a full-stack application divided into two main parts, which should be run independently:
+
+- **`frontend/`**: Contains the Next.js application responsible for the user interface (UI) and Browse experience.
+- **`backend/`**: Contains the RESTful API developed with NestJS, which manages all business logic, database interactions, and authentication.
+
+---
+
+## 🛠️ Technologies Used
+
+| Technology | Purpose |
 | --------------------------- | ----------------------------------- |
-| **Next.js** | Framework React para o Frontend (Interface Gráfica) |
-| **NestJS** | Framework Node.js para o Backend (Server-side API) |
-| **TypeScript** | Linguagem de Programação (Core da Aplicação) |
-| **Node.js** | Ambiente de Execução Javascript (Runtime) |
-| **Vercel** | Plataforma de Deploy para o Frontend |
+| **Next.js** | React Framework for the Frontend (GUI) |
+| **NestJS** | Node.js Framework for the Backend (Server-side API) |
+| **TypeScript** | Programming Language (Application Core) |
+| **Node.js** | JavaScript Runtime Environment |
+| **Vercel** | Deployment Platform for the Frontend |
 
 ---
 
-## 🚀 Como Executar o Projeto
+## 🚀 How to Run the Project
 
 <details>
-  <summary>Clique para expandir os passos de configuração e execução</summary>
+  <summary>Click to expand the configuration and execution steps</summary>
   <br>
 
-### **Pré-requisitos**
+### **Prerequisites**
 
-- **Git:** Para clonar o repositório.
-- **Node.js:** Versão 18 ou superior.
-- **npm** ou **Yarn** (ou outro gerenciador de pacotes).
-- Um editor de código de sua preferência (VS Code, WebStorm, etc.).
+- **Git:** To clone the repository.
+- **Node.js:** Version 18 or higher.
+- **npm** or **Yarn** (or another package manager).
+- A code editor of your choice (VS Code, WebStorm, etc.).
 
 ---
 
-### **Passos para Configuração e Execução**
+### **Configuration and Execution Steps**
 
-1.  **Clone o Repositório:**
+1.  **Clone the Repository:**
     ```bash
-    git clone [https://github.com/daviggalvao/Professor-Reviews](https://github.com/daviggalvao/Professor-Reviews) 
+    git clone https://github.com/daviggalvao/Professor-Reviews
     cd ./Professor-Reviews
     ```
 
-2.  **Configure e Inicie o Backend (NestJS):**
-    * Em um terminal, navegue até a pasta do backend e instale as dependências:
+2.  **Set up and Start the Backend (NestJS):**
+    * In a terminal, navigate to the backend folder and install the dependencies:
       ```bash
       cd backend
       npm install
       ```
-    * Inicie o servidor em modo de desenvolvimento:
+    * Start the server in development mode:
       ```bash
       npm run start:dev
       ```
-    * O backend estará em execução, geralmente na porta `3001` ou `3000`. Verifique o log do terminal.
+    * The backend will be running, usually on port `3001` or `3000`. Check the terminal log.
 
-3.  **Configure e Inicie o Frontend (Next.js):**
-    * **Abra um novo terminal.** Navegue até a pasta do frontend e instale as dependências:
+3.  **Set up and Start the Frontend (Next.js):**
+    * **Open a new terminal.** Navigate to the frontend folder and install the dependencies:
       ```bash
       cd frontend
       npm install
       ```
-    * Inicie a aplicação de desenvolvimento:
+    * Start the development application:
       ```bash
       npm run dev
       ```
-    * Abra [http://localhost:3000](http://localhost:3000) no seu navegador para ver o resultado.
+    * Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
 
 </details>
 
 ---
 
-## 👥 Colaboradores
+## 👥 Collaborators
 
-Agradecemos às seguintes pessoas que contribuíram para este projeto:
+We thank the following people who contributed to this project:
 
 <br>
 
@@ -105,7 +105,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
   <tr>
     <td align="center">
       <a href="https://github.com/daviggalvao">
-        <img src="https://github.com/daviggalvao.png?size=100" width="100px;" alt="Foto de daviggalvao"/>
+        <img src="https://github.com/daviggalvao.png?size=100" width="100px;" alt="Avatar of daviggalvao"/>
         <br />
         <sub>
           <b>daviggalvao</b>
@@ -114,7 +114,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
     </td>
     <td align="center">
       <a href="https://github.com/gusfring41">
-        <img src="https://github.com/gusfring41.png?size=100" width="100px;" alt="Foto de gusfring41"/>
+        <img src="https://github.com/gusfring41.png?size=100" width="100px;" alt="Avatar of gusfring41"/>
         <br />
         <sub>
           <b>gusfring41</b>
@@ -123,7 +123,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
     </td>
     <td align="center">
       <a href="https://github.com/Leo3107">
-        <img src="https://github.com/Leo3107.png?size=100" width="100px;" alt="Foto de Leo3107"/>
+        <img src="https://github.com/Leo3107.png?size=100" width="100px;" alt="Avatar of Leo3107"/>
         <br />
         <sub>
           <b>Leo3107</b>
@@ -132,7 +132,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
     </td>
     <td align="center">
       <a href="https://github.com/Luks715">
-        <img src="https://github.com/Luks715.png?size=100" width="100px;" alt="Foto de Luks715"/>
+        <img src="https://github.com/Luks715.png?size=100" width="100px;" alt="Avatar of Luks715"/>
         <br />
         <sub>
           <b>Luks715</b>
